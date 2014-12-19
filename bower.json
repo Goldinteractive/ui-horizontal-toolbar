@@ -1,0 +1,24 @@
+{
+	"name": "gi-ui-horizontal-toolbar",
+	"version": "0.0.0",
+	"homepage": "https://github.com/Goldinteractive/ui-horizontal-toolbar",
+	"authors": [
+		"gold interactive"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"jquery": "~2.1.2",
+		"gi-ui-grid": "*",
+		"gi-ui-buttons": "*",
+		"gi-scss-mixins": "*",
+		"gi-scss-global-variables": "*",
+		"gi-scss-responsive-utilities": "*"
+	}
+}

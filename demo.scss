@@ -1,0 +1,48 @@
+@import "compass";
+
+// variables
+// Default grid values
+$default-column-width:60px;
+$default-gutter-width:20px;
+$default-columns-amount: 12;
+
+@import "bower_components/gi-scss-mixins/mixins";
+@import "bower_components/gi-scss-global-variables/global-variables";
+@import "bower_components/gi-scss-responsive-utilities/responsive-utilities";
+@import "bower_components/gi-ui-grid/style";
+
+@import "bower_components/gi-ui-buttons/style";
+@import "style";
+
+
+@include create-grid();
+
+/**
+ * Use the following functions to create other custom grids
+ */
+
+@include create-grid(
+	10, // columns number
+	6%,  // column width
+	2%,  // gutter width
+	mobile, // special grid class id
+	true, // is it Fluid?
+	'only screen and (max-width: #{$break-large})' // media query
+);
+
+body {
+	padding-top: $horizontal-toolbar-desktop-height + 20px;
+}
+.fr {
+	float:right !important;
+}
+
+.container {
+	width:gridsystem-width();
+	margin:0 auto;
+	background: white;
+	@include clearfix();
+	@media only screen and (max-width:$break-large) {
+		width: 100%;
+	}
+}
