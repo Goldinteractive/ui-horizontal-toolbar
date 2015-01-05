@@ -23,7 +23,6 @@
     "commit": "7170fa1411ee314041b6cccdf27ec813ca2094c4"
   },
   "_source": "git://github.com/Goldinteractive/scss-responsive-utilities.git",
-  "_target": "~0.0.2",
-  "_originalSource": "gi-scss-responsive-utilities",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "gi-scss-responsive-utilities"
 }

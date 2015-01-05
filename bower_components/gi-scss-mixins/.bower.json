@@ -23,7 +23,6 @@
     "commit": "fa06d60f1232ff318d246542e5a867c69557d426"
   },
   "_source": "git://github.com/Goldinteractive/scss-mixins.git",
-  "_target": "~0.1.0",
-  "_originalSource": "gi-scss-mixins",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "gi-scss-mixins"
 }

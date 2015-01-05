@@ -1,14 +1,14 @@
 {
   "name": "gi-ui-buttons",
   "homepage": "https://github.com/Goldinteractive/ui-buttons",
-  "_release": "f3b75bfb7b",
+  "version": "0.1.0",
+  "_release": "0.1.0",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "f3b75bfb7b16f81e92c87fc460948e4e79b3dcb1"
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "dece5b23bac3bba4904594f5fdb28974e95fe126"
   },
   "_source": "git://github.com/Goldinteractive/ui-buttons.git",
-  "_target": "master",
-  "_originalSource": "gi-ui-buttons",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "gi-ui-buttons"
 }

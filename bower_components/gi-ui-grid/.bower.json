@@ -1,14 +1,14 @@
 {
   "name": "gi-ui-grid",
   "homepage": "https://github.com/Goldinteractive/ui-grid",
-  "_release": "6403e16942",
+  "version": "0.0.1",
+  "_release": "0.0.1",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "6403e1694237629a4b355b07251d36f17b1931b7"
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "8eefd57b03fafa296cf7adf3933fcfbf1685f20d"
   },
   "_source": "git://github.com/Goldinteractive/ui-grid.git",
-  "_target": "master",
-  "_originalSource": "gi-ui-grid",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "gi-ui-grid"
 }
