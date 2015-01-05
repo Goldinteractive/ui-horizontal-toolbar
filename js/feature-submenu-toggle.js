@@ -13,8 +13,6 @@
 			var $ul = $(this).next('ul'),
 				hide = $ul.hasClass('opened');
 
-
-
 			isAnimating = hide;
 
 			if (!$ul.data('original-height')) {
