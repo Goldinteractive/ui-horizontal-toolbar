@@ -1,0 +1,29 @@
+{
+  "name": "scss-responsive-utilities",
+  "version": "0.0.2",
+  "homepage": "https://github.com/Goldinteractive/scss-responsive-utilities",
+  "authors": [
+    "gold interactive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gi-scss-mixins": "*"
+  },
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "7170fa1411ee314041b6cccdf27ec813ca2094c4"
+  },
+  "_source": "git://github.com/Goldinteractive/scss-responsive-utilities.git",
+  "_target": "~0.0.2",
+  "_originalSource": "gi-scss-responsive-utilities",
+  "_direct": true
+}
