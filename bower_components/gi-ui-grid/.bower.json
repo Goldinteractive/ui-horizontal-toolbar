@@ -1,14 +1,30 @@
 {
-  "name": "gi-ui-grid",
+  "name": "ui-grid",
   "homepage": "https://github.com/Goldinteractive/ui-grid",
-  "version": "0.0.1",
-  "_release": "0.0.1",
+  "authors": [
+    "gold interactive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gi-scss-mixins": "~0.2.0",
+    "gi-scss-global-variables": "~0.2.0"
+  },
+  "version": "0.2.0",
+  "_release": "0.2.0",
   "_resolution": {
     "type": "version",
-    "tag": "0.0.1",
-    "commit": "8eefd57b03fafa296cf7adf3933fcfbf1685f20d"
+    "tag": "0.2.0",
+    "commit": "f9ad908b95256dcc6aaceae696436ddc48dae485"
   },
   "_source": "git://github.com/Goldinteractive/ui-grid.git",
-  "_target": "*",
-  "_originalSource": "gi-ui-grid"
+  "_target": "~0.2.0",
+  "_originalSource": "gi-ui-grid",
+  "_direct": true
 }

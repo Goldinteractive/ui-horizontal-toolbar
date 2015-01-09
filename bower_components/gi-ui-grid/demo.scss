@@ -1,14 +1,12 @@
+@import "bower_components/gi-scss-mixins/vendor/compass";
+@import "bower_components/gi-scss-global-variables/global-variables";
+
 @import "style";
 
 // Default grid values
 $default-column-width:8%;
 $default-gutter-width:0.3333333%;
 $default-columns-amount: 12;
-
-// Breakpoint
-$break-small: 320px;
-$break-medium: 768px;
-$break-large: 1024px;
 
 
 // Default grid without any media query
@@ -27,7 +25,7 @@ $full-default-width: gridsystem-width();
 	1%,  // gutter width
 	tablet, // special grid class id
 	true, // is it Fluid?
-	'only screen and (min-width: #{$break-small + 1}) and (max-width: #{$break-large})' // media query
+	map-get($breakpoints,tablet) // media query
 );
 
 @include create-grid(
@@ -36,5 +34,5 @@ $full-default-width: gridsystem-width();
 	2%,  // gutter width
 	mobile, // special grid class id
 	true, // is it Fluid?
-	'only screen and (max-width: #{$break-small})' // media query
+	map-get($breakpoints,mobile) // media query
 );

@@ -1,6 +1,6 @@
 {
   "name": "gi-scss-mixins",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/Goldinteractive/scss-mixins",
   "authors": [
     "gold interactive"
@@ -16,13 +16,13 @@
   "dependencies": {
     "gi-scss-global-variables": "~0.0.1"
   },
-  "_release": "0.1.0",
+  "_release": "0.2.0",
   "_resolution": {
     "type": "version",
-    "tag": "0.1.0",
-    "commit": "fa06d60f1232ff318d246542e5a867c69557d426"
+    "tag": "0.2.0",
+    "commit": "3e9ae4bb52cc80378d33f87310186273efd15c74"
   },
   "_source": "git://github.com/Goldinteractive/scss-mixins.git",
-  "_target": "*",
+  "_target": "~0.2.0",
   "_originalSource": "gi-scss-mixins"
 }
