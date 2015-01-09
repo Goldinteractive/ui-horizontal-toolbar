@@ -16,11 +16,8 @@
     "jquery": "~2.1.2",
     "gi-ui-grid": "*",
     "gi-ui-buttons": "*",
-    "gi-scss-mixins": "*",
+    "gi-scss-mixins": "~0.2.0",
     "gi-scss-global-variables": "*",
     "gi-scss-responsive-utilities": "*"
-  },
-  "resolutions": {
-    "gi-ui-buttons": "master"
   }
 }
