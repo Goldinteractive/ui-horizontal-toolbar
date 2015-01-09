@@ -1,0 +1,20 @@
+{
+  "name": "ui-buttons",
+  "version": "0.1.1",
+  "homepage": "https://github.com/Goldinteractive/ui-buttons",
+  "authors": [
+    "gold interactive"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gi-scss-mixins": "~0.2.0"
+  }
+}

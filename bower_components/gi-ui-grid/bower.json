@@ -1,0 +1,19 @@
+{
+  "name": "ui-grid",
+  "homepage": "https://github.com/Goldinteractive/ui-grid",
+  "authors": [
+    "gold interactive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gi-scss-mixins": "~0.2.0",
+    "gi-scss-global-variables": "~0.2.0"
+  }
+}

@@ -1,0 +1,36 @@
+@import "grid-functions";
+@import "grid-helpers";
+
+
+// Default grid values
+$default-column-width:60px !default;
+$default-gutter-width:20px !default;
+$default-columns-amount: 12 !default;
+
+// Breakpoint
+$break-small: 320px !default;
+$break-medium: 768px !default;
+$break-large: 1024px !default;
+
+
+// Default grid without any media query
+$full-default-width: gridsystem-width() !default;
+
+
+
+/**
+ * Use the following functions to create your own custom grids
+ */
+
+// @include create-grid();
+
+// Custom responsive grids
+// @include create-grid(
+// 	10, // columns number
+// 	8%,  // column width
+// 	1%,  // gutter width
+// 	tablet, // special grid class id
+// 	true, // is it Fluid?
+// 	'only screen and (min-width: #{$break-small + 1}) and (max-width: #{$break-large})' // media query
+// );
+
