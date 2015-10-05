@@ -34,14 +34,18 @@
 				$ul = $this.next('ul'),
 				$parentLi = $this.closest('li'),
 				$parentUl = $parentLi.parent(),
-				isShown = $ul.hasClass('in'),
+				isVisible = $ul.hasClass('in'),
 				submenuHeight;
 
+			// hide the other menues
+			if (!isVisible)
+				$toolbar.find('ul.in').removeClass('in')
+
 			// Update the classes
-			$ul[isShown ? 'removeClass' : 'addClass']('in');
+			$ul[isVisible ? 'removeClass' : 'addClass']('in');
 			$parentUl
-				.removeClass(isShown ? 'out' : 'in')
-				.addClass(isShown ? 'in' : 'out');
+				.removeClass(isVisible ? 'out' : 'in')
+				.addClass(isVisible ? 'in' : 'out');
 
 			// deal with the submenu height just on the desktop
 			if ($window.width() > breakSmall) {
@@ -57,13 +61,13 @@
 
 				$ul
 					.css({
-						height: isShown ? submenuHeight : 0,
+						height: isVisible ? submenuHeight : 0,
 						visibility: ''
 					})
 					.addClass('animated');
 
 				window.setTimeout(function () {
-					$ul.height(isShown ? 0 : submenuHeight);
+					$ul.height(isVisible ? 0 : submenuHeight);
 				});
 
 			}
